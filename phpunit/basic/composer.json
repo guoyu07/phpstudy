@@ -1,0 +1,18 @@
+{
+    "name":"acme/hello-world",
+    "require" : {
+        "monolog/monolog":"1.2.*"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "autoload":{
+        "psr-4":{
+            "Monolog\\":"src/",
+            "Vendor\\Namespace\\":""
+        }
+    }
+}
